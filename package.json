@@ -2,7 +2,7 @@
   "name": "freecodecamp-drum-machine-functional-redo",
   "version": "1.0.0",
   "description": "A remake of a freeCodeCamp certification project",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "start": "webpack-dev-server .",
     "build": "Webpack .",
