@@ -1,0 +1,69 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #8595b4;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1.2vmin);
+    color: rgb(2, 2, 2);
+  }
+
+  #drum-machine {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+    background-color: rgba(64, 126, 136, 0.445);
+    padding: 1%;
+    border-radius: 12px;
+  }
+  
+  #pad-container {
+    display: grid;
+    grid-template-areas: 
+      "a a a"
+      "a a a"
+      "a a a";
+    gap: 3px 3px;
+  
+    background-color: rgba(64, 126, 136, 0.445);
+    border: 2px solid rgba(64, 126, 136, 0.596);
+    border-radius: 5px;
+    padding: 3px;
+  }
+  
+  .drum-pad {
+    background-color: rgba(33, 94, 104, 0.877);
+    min-width: 40px;
+    min-height: 35px;
+  }
+  
+  #display {
+    text-align: center;
+    border: 1px solid rgba(64, 126, 136, 0.9);
+  }
+  
+  .slider {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  
+  #volume {
+    display: inline-block;
+    border: 2px solid red;
+    padding-top: 0px;
+    width: 2fr;
+  }
+  
+  #volumeLabel {
+    align-self: flex-end;
+    line-height: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    width: 40px;
+    color: #484c53;
+    font-size: smaller;
+  }
